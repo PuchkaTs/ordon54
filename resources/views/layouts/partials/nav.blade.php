@@ -10,7 +10,7 @@
       <ul class="navbar-nav mr-auto">
 
         <li class="nav-item">
-          <a class="nav-link" href="/events">Тэмцээн уралдаан</a>
+          <a class="nav-link" href="/">Нүүр</a>
         </li>
 
         @foreach($deedmenu->getMenus() as $key=>$deedmenu)
