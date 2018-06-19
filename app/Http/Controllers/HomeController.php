@@ -15,6 +15,7 @@ class HomeController extends Controller
 
 
 
+
     /**
      * Create a new controller instance.
      *
@@ -57,7 +58,7 @@ class HomeController extends Controller
     }
     public function duguilan_show($id)
     {
-        $content = Content::find($id);
+        $content = Content::with('members')->find($id);
         return view('show')->with(compact('content'));
     }
     public function news_show($id)
