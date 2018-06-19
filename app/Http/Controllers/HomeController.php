@@ -69,12 +69,12 @@ class HomeController extends Controller
     public function news_show($id)
     {
         $content = News::find($id);
-        return view('show')->with(compact('content'));
+        return view('event_show')->with(compact('content'));
     }
     public function event_show($id)
     {
         $content = Temceen::find($id);
-        return view('show')->with(compact('content'));
+        return view('event_show')->with(compact('content'));
     }
     public function event_index()
     {
