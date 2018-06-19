@@ -8,6 +8,7 @@ use App\Temceen;
 use App\Deedmenu;
 use App\Deedmenusub;
 use App\Doodmedee;
+use App\Doodmenusub;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -34,7 +35,11 @@ class HomeController extends Controller
         return view('welcome')->with(compact('doodmedee'));
     }
     public function submenu_show($id){
-        $doodmedee = Doodmedee::with('members')->find($id);
+
+        $doodmenusub = Doodmenusub::find($id);
+
+        $doodmedee = $doodmenusub->doodmedee()->with('members')->first();
+
         return view('welcome')->with(compact('doodmedee'));
     }
     public function main_menu_show($id){

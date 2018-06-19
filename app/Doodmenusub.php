@@ -21,4 +21,8 @@ class Doodmenusub extends Model
     	return $this->hasMany('App\Content');
     }
 
+    public function doodmedee(){
+
+    	return $this->hasMany('App\Doodmedee');
+    }
 }
