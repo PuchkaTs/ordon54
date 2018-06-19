@@ -81,7 +81,7 @@ Route::get('/transparency', [
     'uses'=>'HomeController@transparency_index'
 ]);
 
-Route::auth();
+
 
 Route::get('/home', 'HomeController@index');
 
@@ -101,3 +101,8 @@ Route::get('/register', [
     'as'=>'home_path',
     'uses'=>'HomeController@index'
 ]);
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

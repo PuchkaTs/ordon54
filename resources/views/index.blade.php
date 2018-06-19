@@ -11,7 +11,7 @@
 	        <section>
 	            <h2>{{$content->title}}</h2>
 	            <p>{{$content->shorten(300)}}</p>
-	            <p><a class="btn btn-secondary" href="/content/{{$content->id}}" role="button">Дэлгэрэнгүй »</a></p>                    
+	            <p><a class="btn btn-secondary" href="/news/{{$content->id}}" role="button">Дэлгэрэнгүй »</a></p>                    
 	        </section>
 			@endforeach    
 
