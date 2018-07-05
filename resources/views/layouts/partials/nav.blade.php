@@ -13,6 +13,10 @@
           <a class="nav-link" href="/contents">Дугуйлан</a>
         </li>
 
+        <li class="nav-item">
+          <a class="nav-link" href="/events">Уралдаан</a>
+        </li>
+
         @foreach($deedmenu->getMenus() as $key=>$deedmenu)
 
           @if($deedmenu->deedmenusub->count())
