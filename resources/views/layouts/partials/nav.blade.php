@@ -36,7 +36,9 @@
             </li>
           @endif
         @endforeach
-
+        <li class="nav-item">
+          <a class="nav-link" href="#bottom">Холбоо барих</a>
+        </li>
       </ul>
     </div>
   </nav>
