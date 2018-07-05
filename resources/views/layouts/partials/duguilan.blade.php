@@ -1,5 +1,7 @@
 @inject('duguilanTag', 'App\Duguilantag')
 <div class="row">
+<a name="duguilan"></a>
+
   <div class="col-sm-12">
     <div class="duguilan-container">
         <h1>Дугуйлан</h1>

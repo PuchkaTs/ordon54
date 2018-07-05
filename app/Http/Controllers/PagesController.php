@@ -61,6 +61,10 @@ class PagesController extends Controller
         }
         return view('index')->with(compact('contents', 'contents_tag'));
     }
+    public function duguilan_index(){
+    	return view('duguilan_index');
+    }
+
     public function duguilan_show($id)
     {
         $content = Content::with('members')->find($id);

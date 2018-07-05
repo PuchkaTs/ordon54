@@ -41,6 +41,11 @@ Route::get('/mission', [
     'uses'=>'PagesController@mission_show'
 ]);
 
+Route::get('/contents', [
+    'as'=>'duguilan_path',
+    'uses'=>'PagesController@duguilan_index'
+]);
+
 Route::get('/content/{id}', [
     'as'=>'duguilan_show_path',
     'uses'=>'PagesController@duguilan_show'
