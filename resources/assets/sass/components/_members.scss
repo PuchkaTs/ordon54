@@ -1,0 +1,114 @@
+
+/*start of members*/
+.my-btn-header{
+	font-size: 1.1em;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	width: 100%;
+	color:white;
+	text-decoration: none;
+
+}
+.my-btn-header:hover{
+	background: #eecd16;
+	text-decoration: none;
+}
+/*end of members*/
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.about-us .nav-link:hover{
+	text-decoration: underline;
+}
+
+.member{
+	padding: 1em;
+	border-bottom: 1px solid #c3c3c3
+}
+.member:last-child{
+	border-bottom: 0px;
+}
+.members-left{
+	background: #1c5eb1;	padding: 0px;
+}
+.members-left a{
+}
+.members-right{
+	background: white;
+}
+
+.members-right h1{
+	color: #162c5a;
+}
+
+.members-right>div{
+	padding: 15px;
+}
+
+.members-right .portfolio{
+	font-size: 0.8em;
+}
+.avatar{
+	width: 100px;
+
+    border: 1px solid #162c5a;
+}
+
+.ovog{
+	margin: 0px;
+	font-size: 	0.7em;
+}
+.ner{
+	text-transform: uppercase;
+	margin: 0px;
+
+}
+.logo-square{
+	width: 30%;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.padding-right-zero{
+	padding-right: 0px;
+}
+.padding-left-zero{
+	padding-left: 0px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #162c5a;
+    background-color: #ffd223;
+}
+.nav-pills .nav-link {
+    border-radius: 0rem;
+}
+.members-left a{
+	color: white;
+
+}
+.duguilan{
+	background-color: #79c0ab;
+}
+.width{
+	width: 10%;
+}
+.subtitle{
+	text-align: center;
+	color: white;
+}
+.margin0{
+	margin:0px;
+}
+
+.logo-square{
+	width: 100%;
+	text-align: center;
+}
+.logo-square img{
+	width: 50%;
+	margin: 0 auto;
+
+}

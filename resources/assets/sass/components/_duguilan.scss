@@ -1,0 +1,55 @@
+
+
+/*duguilan*/
+
+h1 {
+	font-family: 'Lobster', cursive;
+}
+
+.centered{
+	text-align: center;
+}
+
+
+.duguilan-container{
+	padding: 4em;
+	background-color: #79c0ab;
+
+}
+.duguilan{
+	width:150px;
+	padding:1em;
+}
+.duguilan-container h1{
+	color: #fff;
+	text-align: center;
+}
+
+.duguilan-container div.linetext{
+    border-bottom: 1px solid #fff!important;
+    height: 3em;
+    position: relative;
+}
+
+.linetext span{
+	color: 	#79c0ab;
+	font-weight: 600;
+	position: absolute;
+	bottom: 0px;
+	padding: 0.5em 1.5em;
+	border-radius: 10px;
+	background: #fff;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.duguilan-section{
+	padding-top: 2em;
+}
+
+
+/*end of duguilan*/
+
+.duguilan-section img{
+	max-width: 75px;
+}

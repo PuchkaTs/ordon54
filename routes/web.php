@@ -13,77 +13,77 @@
 
 Route::get('/', [
     'as'=>'home_path',
-    'uses'=>'HomeController@index'
+    'uses'=>'PagesController@index'
 ]);
 
 Route::get('/news', [
     'as'=>'news_path',
-    'uses'=>'HomeController@news_index'
+    'uses'=>'PagesController@news_index'
 ]);
 
 Route::get('/mmenu/{id}', [
     'as'=>'main_menu_path',
-    'uses'=>'HomeController@main_menu_show'
+    'uses'=>'PagesController@main_menu_show'
 ]);
 
 Route::get('/submenu/{id}', [
     'as'=>'submenu_path',
-    'uses'=>'HomeController@submenu_show'
+    'uses'=>'PagesController@submenu_show'
 ]);
 
 Route::get('/msmenu/{id}', [
     'as'=>'main_submenu_path',
-    'uses'=>'HomeController@main_submenu_show'
+    'uses'=>'PagesController@main_submenu_show'
 ]);
 
 Route::get('/mission', [
     'as'=>'mission_path',
-    'uses'=>'HomeController@mission_show'
+    'uses'=>'PagesController@mission_show'
 ]);
 
 Route::get('/content/{id}', [
     'as'=>'duguilan_show_path',
-    'uses'=>'HomeController@duguilan_show'
+    'uses'=>'PagesController@duguilan_show'
 ]);
 
 Route::get('/news/{id}', [
     'as'=>'news_show_path',
-    'uses'=>'HomeController@news_show'
+    'uses'=>'PagesController@news_show'
 ]);
 
 Route::get('/event/{id}', [
     'as'=>'event_show_path',
-    'uses'=>'HomeController@event_show'
+    'uses'=>'PagesController@event_show'
 ]);
 
 Route::get('/about', [
     'as'=>'news_path',
-    'uses'=>'HomeController@about_index'
+    'uses'=>'PagesController@about_index'
 ]);
 
 Route::get('/law', [
     'as'=>'news_path',
-    'uses'=>'HomeController@law_index'
+    'uses'=>'PagesController@law_index'
 ]);
 
 Route::get('/class', [
     'as'=>'news_path',
-    'uses'=>'HomeController@class_index'
+    'uses'=>'PagesController@class_index'
 ]);
 
 Route::get('/events', [
     'as'=>'events_path',
-    'uses'=>'HomeController@event_index'
+    'uses'=>'PagesController@event_index'
 ]);
 
 Route::get('/transparency', [
     'as'=>'news_path',
-    'uses'=>'HomeController@transparency_index'
+    'uses'=>'PagesController@transparency_index'
 ]);
 
 
 
-Route::get('/home', 'HomeController@index');
+Route::get('/home', 'PagesController@index');
 
 /**
  * Super Admin
@@ -99,10 +99,14 @@ Route::post('ncst', [
 
 Route::get('/register', [
     'as'=>'home_path',
-    'uses'=>'HomeController@index'
+    'uses'=>'PagesController@index'
 ]);
-
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/logout', [
+    'as'   => 'logout',
+    'uses' => 'SessionsController@destroy'
+]);

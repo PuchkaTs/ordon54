@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/appss.css">
+    <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <title>Монголын хүүхдийн ордон</title>
 
@@ -36,7 +36,6 @@
     <div class="container">
 
     @include('layouts.partials.nav')
-    @include('layouts.partials.carousel')
 
     @yield('body')
 

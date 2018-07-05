@@ -16,13 +16,13 @@
 
             <div id="collapse{{$doodMenu->id}}" class="collapse" aria-labelledby="heading{{$doodMenu->id}}" data-parent="#accordionExample">
             	@foreach($doodMenu->doodmenusub as $subMenu)
-                    <a class="nav-link" href="/submenu/{{$subMenu->id}}">{{$subMenu->title}}</a>
+                    <a class="nav-link hoverOrange" href="/submenu/{{$subMenu->id}}">{{$subMenu->title}}</a>
                 @endforeach
             </div>
         </div>
         @endforeach
 
-        <div class="">
+<!--         <div class="">
             <div class="" id="headingFour">
               <h5 class="mb-0">
                 <button class="btn btn-link my-btn-header" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -30,7 +30,7 @@
                 </button>
               </h5>
             </div>
-        </div>
+        </div> -->
 
 
 

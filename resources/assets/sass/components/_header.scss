@@ -1,0 +1,65 @@
+/*header css*/
+a:hover {
+	color:gray;
+}
+
+.child {
+	flex-grow:1;
+}
+
+#search {
+	border-radius:10px;
+	border:none;
+	outline:none;
+	color:#fff;
+	padding: 4px 4px 4px 25px;
+	display:none;
+}
+
+#magnify {
+	cursor:pointer;
+}
+
+h1, p {
+	color:#474747;
+	font-family:'Raleway';
+}
+
+
+@media all and (max-width:800px) {
+
+	.container {
+		padding:50px;
+	}
+
+	#search {
+		width:80%;
+		margin: 0 auto;
+	}
+
+}
+
+@media only screen and (max-width:542px) {
+
+	.child {
+		flex-grow:1;
+		text-align:center;
+	}
+
+	#search {
+		display:block;
+		width:80%;
+		margin: 16px auto 0 auto;
+	}
+
+	#magnify {
+		display:none;
+	}
+
+	.container {
+		padding:30px;
+	}
+
+}
+
+/*end of header css*/
