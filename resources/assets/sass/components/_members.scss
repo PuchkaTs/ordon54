@@ -31,12 +31,15 @@
 	border-bottom: 0px;
 }
 .members-left{
-	background: #1c5eb1;	padding: 0px;
+	background: #172d5b;	padding: 0px;
 }
 .members-left a{
 }
 .members-right{
 	background: white;
+	background-image: url('../images/pattern.png');
+	background-repeat: repeat-x repeat-y; 
+	
 }
 
 .members-right h1{
@@ -89,9 +92,7 @@
 	color: white;
 
 }
-.duguilan{
-	background-color: #79c0ab;
-}
+
 .width{
 	width: 10%;
 }

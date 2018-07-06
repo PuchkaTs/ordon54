@@ -5,5 +5,6 @@
     @include('layouts.partials.duguilan')
     @include('layouts.partials.news')
     @include('layouts.partials.temceen')
+    @include('layouts.partials.map')
 
 @endsection

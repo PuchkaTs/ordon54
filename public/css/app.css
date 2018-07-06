@@ -10102,12 +10102,14 @@ p {
 }
 
 .members-left {
-  background: #1c5eb1;
+  background: #172d5b;
   padding: 0px;
 }
 
 .members-right {
   background: white;
+  background-image: url(/images/pattern.png?f87530f0485eef819e68b54f9014e7fe);
+  background-repeat: repeat-x repeat-y;
 }
 
 .members-right h1 {
@@ -10165,10 +10167,6 @@ p {
   color: white;
 }
 
-.duguilan {
-  background-color: #79c0ab;
-}
-
 .width {
   width: 10%;
 }
@@ -10204,7 +10202,7 @@ h1 {
 
 .duguilan-container {
   padding: 4em;
-  background-color: #79c0ab;
+  background-color: #85d7be;
 }
 
 .duguilan {
@@ -10250,6 +10248,11 @@ h1 {
 .content-show,
 .medee {
   padding: 2em 10em;
+}
+
+.medee {
+  background-image: url(/images/pattern.png?f87530f0485eef819e68b54f9014e7fe);
+  background-repeat: repeat-x repeat-y;
 }
 
 .content-show h1,

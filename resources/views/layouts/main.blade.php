@@ -48,20 +48,24 @@
             <div class="row">
                 <div class="col-md-4">
                     <p>Утас:</p>
-                    <p>11-32-46-03</p>
+                    <p>11-31-82-74</p>
+                    <p>11-31-82-75</p>
 
 
                 </div>
 
                 <div class="col-md-4">
-                    <p>Хаяг: 14241 Улаанбаатар хот,</p>
+                    <p>Хаяг:</p>
                     <p>Сүхбаатар дүүрэг, 1-р хороо,</p>
                     <p>Чингисийн өргөн чөлөө</p>                
                 </div>
 
                 <div class="col-md-4">
                     <p>Цахим хаяг:</p>
-                    <p>surgaltiinalba.mxo@gmail.com</p>
+                    <p>mxo1958@gmail.com</p>
+                    <h2><a href="https://www.youtube.com/channel/UCapbXPfi9axctq_l5bTj2AQ" class="zoom-wrap"><i class="fab fa-youtube zoom-in" style="color:white;"></i></a>
+                    <a href="https://www.facebook.com/huuhdiinordon/" class="zoom-wrap"><i class="fab fa-facebook zoom-in" style="color:white;"></i></a>
+                    </h2>
                 </div>
                                                 
             </div>

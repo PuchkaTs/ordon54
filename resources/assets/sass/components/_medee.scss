@@ -4,13 +4,17 @@
 .content-show, .medee{
 	padding: 2em 10em;
 }
-
+.medee{
+		background-image: url('../images/pattern.png');
+	background-repeat: repeat-x repeat-y; 
+}
 .content-show h1, .medee h1{
 	color: #f06626;
 	text-align: center;
 }
 
 .medee section {
+
 	padding: 1em;
     border-bottom: 1px solid #c7c7c7!important;
 }

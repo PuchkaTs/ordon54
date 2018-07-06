@@ -4,7 +4,7 @@
     <div class="col-sm-12">
         <div class="temceen">
 
-            <h1>Тэмцээн үралдаан</h1>
+            <h1>Уралдаан наадам</h1>
             <div class="centered"><img src="/assets/border/white.png"></div>
                 @foreach($temceen->latest()->limit(4)->get() as $key=>$content)
                   @if($key == 0)
