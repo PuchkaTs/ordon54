@@ -1,0 +1,16 @@
+.faq-container{
+	padding:6em;
+	background-image: url('../images/pattern.png');
+	background-repeat: repeat-x repeat-y; 
+	border-bottom:2px solid #f06626;
+	h1{
+		text-align:center;
+		color:#f06626;
+	}
+	.accordion{
+		margin-top:2em;
+	}
+	.btn-link{
+		color: black;
+	}
+}

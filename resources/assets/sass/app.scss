@@ -9,10 +9,12 @@ $yellow:#eecd16;
 @import "components/duguilan.scss";
 @import "components/medee.scss";
 @import "components/temceen.scss";
+@import "components/faq.scss";
 @import "components/footer.scss";
 
 html, body {
 	height:100%;
+	min-width:700px;
 	background:#f5f5f5;
 }
 

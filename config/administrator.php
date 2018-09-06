@@ -75,6 +75,7 @@ return array(
 		'temceen',
 		'doodmedee',
 		'mainbanners',
+		'faqs',
 		),
 
 	/**
