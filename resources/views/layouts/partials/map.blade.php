@@ -1,3 +1,3 @@
 <div>
-	<img src="/images/map.png" class="img-fluid">
+	<img src="/images/map.PNG" class="img-fluid">
 </div>
