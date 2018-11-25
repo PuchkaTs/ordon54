@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);/*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -10022,7 +10022,6 @@ a:hover {
 h1,
 p {
   color: #474747;
-  font-family: 'Raleway';
 }
 
 @media all and (max-width: 800px) {
@@ -10369,6 +10368,7 @@ html,
 body {
   height: 100%;
   min-width: 700px;
+  font-family: 'Roboto Condensed', sans-serif;
   background: #f5f5f5;
 }
 
