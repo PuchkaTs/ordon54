@@ -16,7 +16,7 @@
 
             <div id="collapse{{$doodMenu->id}}" class="collapse" aria-labelledby="heading{{$doodMenu->id}}" data-parent="#accordionExample">
             	@foreach($doodMenu->doodmenusub as $subMenu)
-                    <a class="nav-link hoverOrange" href="/submenu/{{$subMenu->id}}">{{$subMenu->title}}</a>
+                    <a class="nav-link hoverOrange" href="/submenu/{{$subMenu->id}}" id="submenu-{{$subMenu->id}}">{{$subMenu->title}}</a>
                 @endforeach
             </div>
         </div>

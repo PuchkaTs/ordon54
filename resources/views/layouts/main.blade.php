@@ -71,7 +71,13 @@
             </div>
         </footer>
     </div>
-
+    <script type="text/javascript">
+        x = document.getElementById('submenu-25');
+        x.addEventListener('click', function(e){
+            e.preventDefault();
+            window.location.href='http://www.smartcity.mn/login?fbclid=IwAR2KogKiVE2U2tBj4bXTtZoMteV7QkumbR6WkDGWHg2hqt1vEeniUCgpWCE';
+        });
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
