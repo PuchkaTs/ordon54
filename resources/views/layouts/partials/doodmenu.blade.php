@@ -1,7 +1,7 @@
 @inject('doodmenu', 'App\Doodmenu')
 <div class="row margin0">
     <div class="col-3 members-left">
-        <div class="logo-square"><img src="/assets/logo_square.png">
+        <div class="logo-square"><img src="/assets/logo_square1.png">
         </div>
 	    @foreach($doodmenu->getMenus() as $key=>$doodMenu)
 
