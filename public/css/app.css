@@ -10372,6 +10372,11 @@ body {
   background: #f5f5f5;
 }
 
+.content-show {
+  background-image: url(/images/pattern.png?f87530f0485eef819e68b54f9014e7fe);
+  background-repeat: repeat-x repeat-y;
+}
+
 .zigzag {
   margin: 1em;
 }
